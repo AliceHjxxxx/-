@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+  
+    /* padding: 15px; */ 
+     background-color: #EAEAEA;
+} 
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    box-sizing: border-box;
+}
+.se-header
+{
+    text-align: center; 
+    overflow: hidden;
+    height: 135px;
+    position: relative;
+    background: url(../image/home/4.jpg) no-repeat center center ;
+    background-size: 400PX;
+    padding: 20px;
+    background-color:black ;
+    /* opacity: 0.56; */  
+
+}
+h1
+{
+ 
+    color: white;
+  /* margin-left: 60px; */
+    margin-bottom: 20px;
+    padding-top: 40px;
+    font-size: 40px;
+
+  
+}
+#content
+{
+    padding: 15px;
+    /* background-color: white; */
+}
+#single-p
+{
+    width: 95%;
+    height: 615px;
+    background-color: white;
+    padding: 33px;
+    text-align: center;
+    
+
+}
+img{
+     width: 100%;
+    
+}
+.single-album
+{   margin-top: 10px;
+    padding-right: 30px;
+    margin-right: 15px;
+    width: 600px;
+    height: 600px;
+    float: left; 
+}
+/* #icon
+{
+width: 40px;
+height: 40px;
+} */
+
+ .add
+{
+    border:0;
+    background-color:#151D4C ;
+    /* display: block; */
+    /* margin: 20px auto; */
+    text-align: center;
+    border: 2px solid #151D4C;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left:10px;
+    /* margin-left: 300px;
+    margin-top: 150px; */
+    /* display:inline-block; */     
+} 
+ 
+.add:hover
+{
+    /* padding: 17px 43px; */
+   width: 170px;
+}
+.prod-single-content
+{
+      /* float: right; */
+    margin-top: 15px; 
+    background-color: white;
+    width: 100%;
+    height: 670px;
+
+    
+}
+table
+{
+  
+    border-radius: 2px;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border: solid 1px #DDDDDD;
+    text-align: center;
+    height: 600px;
+    width: 900px;
+
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr{/*必须加td，代表的是一行进行*/
+    background-color:white;
+    padding:5px 6px;
+    }
+tr:nth-child(2n){
+    background-color:#F9F9F9;
+        padding:5px 6px;
+    }
+.intro
+{
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+    background-color: gray;
+}
+.music-detail
+{
+  padding-top: 15px;
+   margin-left: 15px;
+   padding-bottom: 130px;
+   float: left;
+   /* padding-right: 100px; */
+
+}
+.player
+{
+    background-color: white;
+ 
+   
+}
+#trylisten
+{
+    border-radius: 10px;
+    border: solid 0.5px;
+width: 60px;
+height: 25px;
+outline: none;
+
+}
+#trylisten:active
+{
+    width: 57px;
+height: 23px;
+}
+.show-range
+{
+    /* float: right; */
+    background-color:white;
+   margin-top: 20px;
+    text-align: center;
+    float: right;
+    margin-right: 100px;
+
+}
+.range
+{
+   margin-left: 20px;
+   border: 0;
+   font-size: 20px;
+   outline: none;
+   background-color: white;
+   cursor: pointer;
+}
+h2{
+    font-size: 35px;
+}
+.top
+{
+    font-size: 25px;
+    padding: 10px;
+    font-weight: lighter;
+}
+h3
+{
+    font-size:20px ;
+    font-weight: lighter;
+    margin-top: 20px;
+   
+}
+h4
+{
+   font-size: 30px;
+   /* margin-left: 100px; */
+   background-color: #fff;
+   margin-top: 70px;
+
+
+}
+
+h5
+{
+  
+    margin-left: 190px;
+}
+h6
+{
+    margin-top: 50px;
+    /* position: relative; */
+}

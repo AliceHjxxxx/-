@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.info{
+   width: 1100px;
+    text-align: center;
+    /* border-style: none; */
+    /*transition: 0.25s;*/
+    top:48%;
+    left: 50%;
+  margin-top: 10px;
+    transform: translate(-47%,-35%);
+    position: absolute;
+
+   
+  
+}
+td
+{  
+    height: 40px;
+    width: 350px;
+    background-color: white;
+    /* padding-right:  10px; 
+    padding-left: 10px; */
+    border-style: none;
+    /* border: solid 10px black; */
+    /* margin: 20px; */
+   font-size: 19px; 
+ 
+
+ 
+
+}
+th
+{
+    height: 60px;
+    background-color: white;
+    padding: 10px;
+    border-style: none;
+    margin: 30px;
+    font-size: 300px; 
+    /* border: solid 10px black; */
+    font-size: 40px;
+}
+img
+{
+width: 350px ;
+height: 350px;
+ /* border-radius: 350px;   */
+/*transform: translate(100%,100%);*/
+}
+span
+{
+    padding-left: 8px;
+   
+}
+.update
+{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px 900px;
+    text-align: center;
+    border: 2px solid #78909C;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 15px;
+}
+.update:hover
+{
+    background: #78909C;
+}
+.date 
+{
+    color:white;
+    font-weight: normal;
+    margin-left: 150px;
+    font-size: 20px;
+}
+h2{
+    font-weight: lighter;
+    font-size: medium;
+}
+section
+{
+    background:url(../image/login/bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.font
+{
+    color: white;
+    padding-top: 45px;
+    padding-left: 150px;
+    font-size: 2rem;
+}

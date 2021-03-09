@@ -1,0 +1,247 @@
+body{
+   
+    font-family: sans-serif;
+    
+ background: url(../image/login/bg4.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+    /* filter: blur(5px); */
+  
+     
+}
+
+*{
+  margin: 0;
+  padding: 0;
+ /* list-style: none;
+  text-decoration: none;
+  background-color:#34495e;*/
+
+}
+.welcome
+{
+    width: 300px;
+    padding: 50px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color:  rgba(0, 0, 0, 0.7);
+}
+span
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size :30px ;
+}
+.welcome input[type="button"]
+{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #151D4C;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 15px;
+}
+.welcome input[type="button"]:hover{
+    background: #151D4C;
+    width: 180px;
+  
+}
+#log,#reg
+{
+  visibility :hidden;
+}
+.box{
+
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+ /* background: #191919;*/
+ text-align: center;
+ background-color:  rgba(0, 0, 0, 0.8);
+}
+
+.rbox{
+width: 94.5%;
+  padding: 40px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  /*background: #191919;*/
+text-align: center;
+ background-color:  rgba(0, 0, 0, 0.8);
+}
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.h1 .re-icon
+{
+  text-align: left;
+
+}
+.box input[type="text"],.box input[type="password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    /*border:2px solid#78909C;*/
+   border:2px solid #151D4C;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus
+{
+
+    width: 280px;
+   /* border-color: #151D4C;*/
+ border-color: #78909C;
+ 
+}
+.rbox .date
+{
+  background: none;
+  border-radius: 24px;
+  border:2px solid  #78909C;
+  width: 60px;
+  transition: 0.25s;
+  padding: 10px 10px;
+  outline: none;
+  text-align: center;
+  margin-top: 15px ;
+  color: white;
+
+
+}.rbox input[type="tel"]
+{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 1px auto;
+  text-align: center;
+  /*border:2px solid#78909C;*/
+ border:2px solid  #78909C;
+ padding: 10px 10px;
+  width: 280px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.rbox .username,.rbox input[type="password"],.rbox input[type="email"]
+{  border: 0;
+  background: none;
+  display: block;
+  margin: 23px auto;
+  text-align: center;
+  /*border:2px solid#78909C;*/
+ border:2px solid  #78909C;
+ padding: 12px 10px;
+  width: 280px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type="submit"],.rbox  input[type="submit"]
+{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid#998C93;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 15px;
+}
+.box input[type="submit"]:hover,.rbox input[type="submit"]:hover{
+    background:#998C93;
+}
+  
+.box a
+{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #2c3e50;
+    color: white;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 24px;
+}
+  
+.box a:hover
+{
+    background: #e67e22;
+}
+  
+.box a i
+{
+    transition: 0.4s all;
+}
+  
+ .box a:hover > i
+{
+    transform: scale(1.6) rotate(25deg);
+}
+  
+.re-icon
+{
+   width: 30px;
+   height: 30px;
+}
+ .re-icon:hover
+{
+  width:35px;
+  height: 35px;
+  cursor: pointer;
+}
+.rbox input[type="radio"]
+{
+  width: 15px;
+  height: 15px;
+ margin-left: 10px;
+
+}
+label
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sex
+{
+ width: 30px;
+ height: 30px;
+}

@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    /* color:#000; */
+  }
+
+
+.logo
+{
+    background: url(../image/market/smg.jpg) no-repeat center center;
+    height: 160px;
+    box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.1), -10px 10px 10px 10px rgba(0,0,0,0.1);
+    background-color: black;
+    /* position: fixed; */
+    background-size: 500px;
+    /* z-index: 2; */
+    /* margin-top: 0; */
+    width: 100%;
+    overflow: hidden;
+
+}
+a
+{
+   color: white;
+}
+.icon
+{
+    float: right;
+    padding-top:10px;
+    margin-right: 20px;
+    color: white;
+}
+.n-title
+{
+    float: left;
+   padding: 10px;
+   margin-left: 470px;
+}
+.num-title
+{
+    float: left;
+   padding: 10px;
+   margin-left: 240px;
+}
+.p-title
+{
+    float: left;
+   padding: 10px;
+   margin-left: 200px;
+}
+.detail
+{
+    background-color:white;
+    height: 40px;
+    width: 100%;
+    /* margin-top: 15px; */
+}
+.pic
+{
+    height: auto;
+    width: 130px;
+    margin: 10px;
+}
+.picbox  
+{
+  /* margin: 15px; */
+    width: 150px;
+    height:145px;
+    overflow: hidden;
+ margin-right: 30px; 
+    /* background-color: wheat; */
+    float: left;
+
+}
+.text1
+{
+    float: left;
+   width: 50px; 
+    /* height: 150px; */
+
+    padding:  0px 50px;
+    text-align: center;
+
+}
+.text
+{
+    float: left;
+    width: 300px;
+    /* margin: 100px; */
+    height: 105px;
+ padding: 20px;
+text-align: center;
+    /* background-color: wheat; */
+    font-size: 15px;
+    margin-right: 30px;
+  
+}
+.text2
+{
+    float: left;
+    width: 200px;
+    /* margin: 100px; */
+    /* height: 105px; */
+ /* padding: 20px; */
+ margin-top: 60px;
+ /* background-color: wheat; */
+text-align: center;
+    font-size: 15px;
+    /* padding-left: 50px; */
+    margin-right: 70px;
+}
+.text3
+{
+    float: left;
+    width: 220px;
+    /* margin: 100px; */
+
+ /* padding: 20px; */
+ margin-top: 60px;
+ /* background-color: wheat; */
+text-align: center;
+    font-size: 15px;
+    margin-right: 80px;
+    
+}
+.buy
+{
+   
+    width:100%; height:145px;
+    margin-top: 10px;  
+    background-color: white; 
+ 
+
+}
+.close
+{
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+h2
+{ 
+margin-top: 4%;
+}
+.buy input[type="button"]
+{
+    margin-top: 4%;
+}
+.info
+{
+    text-align: center;
+    /* background-color: white; */
+    clear:both;
+   float: left;
+   margin-left: 50px;
+   padding: 30px;
+
+}
+td
+{
+  padding: 10px;
+  font-size: 15px;
+  text-align: left;
+}
+.bill
+{
+    margin-top: 10px;
+    background: white;
+    width:100%;
+    height: auto;
+    overflow:hidden;
+    float: left;
+   
+ }
+.total
+{
+    float: right;
+    background-color: white;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+.pay
+{
+    border:0;
+    background: #998C93;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid#998C93;
+    padding: 14px 35px;
+    outline: none; 
+    /* color: white; */
+     border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 15px;
+   
+} 
+.pay:hover
+{
+    height: 52px;
+     width: 160px;
+}
+.address
+{
+    height: 100px;
+}
+h5
+{
+    font-size: 15px;
+     margin-top: 100px;
+}
+footer
+{
+    background-color: black;
+    color:white;
+    /* padding-bottom: 20px; */
+    text-align: center;
+}
+.movenum
+{
+    border: black;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.movenum:active
+{
+    font-size: 17px;
+ 
+}

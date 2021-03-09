@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+  
+    /* padding: 15px; */ 
+     background-color: #EAEAEA;
+} 
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    box-sizing: border-box;
+}
+.se-header
+{
+    text-align: center; 
+    overflow: hidden;
+    height: 135px;
+    position: relative;
+    background: url(../image/home/4.jpg) no-repeat center center ;
+    background-size: 400PX;
+    padding: 20px;
+    background-color:black ;
+    /* opacity: 0.56; */  
+
+}
+h1
+{
+ 
+    color: white;
+  /* margin-left: 60px; */
+    margin-bottom: 20px;
+    padding-top: 40px;
+    font-size: 40px;
+
+  
+}
+#content
+{
+    padding: 15px;
+    /* background-color: white; */
+}
+#single-p
+{
+    width: 97%;
+    height: 550px;
+    background-color: white;
+    padding: 20px;
+    margin-right: 10px;
+    
+
+}
+img{
+    display:inline-block;
+     float: left; 
+     padding-right: 20px;
+    
+}
+/* #icon
+{
+width: 40px;
+height: 40px;
+} */
+
+ .add
+{
+    border:0;
+    background-color:#151D4C ;
+    /* display: block; */
+    /* margin: 20px auto; */
+    text-align: center;
+    border: 2px solid #151D4C;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 400px;
+    margin-top: 100px;
+    /* display:inline-block; */
+    float: right;
+   
+} 
+.prod-single-content
+{
+      /* float: right; */
+    margin-top: 15px; 
+    background-color: white;
+    
+}
+table
+{
+  
+    border-radius: 2px;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border: solid 1px #DDDDDD;
+    text-align: center;
+    height: 600px;
+    width: 900px;
+
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr{/*必须加td，代表的是一行进行*/
+    background-color:white;
+    padding:5px 6px;
+    }
+tr:nth-child(2n){
+    background-color:#F9F9F9;
+        padding:5px 6px;
+    }
+.intro
+{
+    float: right;
+    /* padding-bottom: 50px; */
+
+}
+.music-detail
+{
+  padding-top: 15px;
+   margin-left: 15px;
+   padding-bottom: 170px;
+
+}
+.player
+{
+    background-color: white;
+    /* height: 100px;
+    width: 430px; */
+ 
+   
+}
